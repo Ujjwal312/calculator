@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+  }
+  
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .component {
+    background-color: rgb(62, 50, 50);
+    color: white;
+    width: 500px;
+    padding: 5px;
+  }
+  
+  
+  .screen {
+    text-align: right;
+    padding: 30px 20px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  
+  .c-button {
+    padding: 20px 20px;
+    text-align: right;
+    background-color: #dce5f1;
+    height: 100px;
+    width: 23.75%;
+    border: none;
+    border-radius: 0;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3%;
+  }
+  
+  
+  .double {
+    width: 49.1%;
+  }
+  
+  
+  .triple {
+    width: 74.5%;
+  }
+  
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    margin-bottom: 1.5%;
+  }
+  
+  
+  .c-button:last-child {
+    background-color: rgb(111, 17, 1);
+    color: white;
+  }
+  
+  
+  .c-button:last-child:hover {
+    background-color: tomato;
+  }
+  .c-button:last-child:active {
+    background-color: red;
+  }
+  
+  
+  .c-button:hover {
+    background-color: rgb(63, 58, 58);
+  }
+  
+  
+  .c-button:active {
+    background-color: rgb(49, 45, 45);
+  }
